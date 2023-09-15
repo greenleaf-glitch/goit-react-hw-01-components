@@ -4,7 +4,7 @@ export const TableContainer = styled.table`
   width: 800px;
   border: 2px solid blue;
   color: white;
-  background-color: darkgray;
+  background-color: gray;
   margin-bottom: 100px;
 `;
 
@@ -23,13 +23,13 @@ export const TableRowLight = styled.tr`
 `;
 
 export const TableRowDark = styled.tr`
-  background-color: lightgray;
-  color: black;
+  background-color: slategray;
+  color: white;
   text-align: center;
   font-size: 20px;
 `;
 
 export const TableData = styled.td`
-  border-left: 1px solid black;
-  border-right: 1px solid black;
+  /* border-left: 2px solid black; */
+  /* border-right: 1px solid black; */
 `;

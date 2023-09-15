@@ -1,7 +1,6 @@
 import { styled } from 'styled-components';
 
 export const StatContainer = styled.section`
-  /* min-height: 100vh; */
   width: 500px;
   padding: 10px;
   display: flex;
@@ -23,14 +22,10 @@ export const StatHeaderContainer = styled.div`
 
 export const StatValuesContainer = styled.div`
   display: flex;
-  /* flex-direction: row; */
   flex-wrap: wrap;
-  /* width: 300px; */
   height: fit-content;
-  /* border: 2px solid gray; */
   color: black;
   justify-content: center;
-
   padding: 20px;
   text-align: center;
 `;

@@ -9,7 +9,7 @@ import {
 import { getRandomColor } from './RandomColorFunc.js';
 
 export const Statistics = ({ data, title }) => {
-  const backGroundColor = `background-color: ${getRandomColor()}`;
+  const backGroundColor = `${getRandomColor()}`;
   const dataRenderArr = data.map(item => {
     return (
       <StatItemContainer backgroundcolor={backGroundColor} key={item.id}>
@@ -20,7 +20,6 @@ export const Statistics = ({ data, title }) => {
       </StatItemContainer>
     );
   });
-
   return (
     <StatContainer>
       {title ? <StatHeaderContainer>{title}</StatHeaderContainer> : null}

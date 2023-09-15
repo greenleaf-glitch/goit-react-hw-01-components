@@ -56,7 +56,7 @@ export const StatsContainer = styled.div`
   justify-content: space-around;
   align-items: center;
 
-  border-top: solid 2px darkgrey;
+  border-top: solid 2px grey;
   background-color: white;
 `;
 
